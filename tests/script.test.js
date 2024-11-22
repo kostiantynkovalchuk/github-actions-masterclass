@@ -1,5 +1,10 @@
 import { describe, it, expect, beforeEach } from "vitest";
-import { incrementCounter, getCounter, resetCounter, setupEventListeners } from "../src/script";
+import {
+  incrementCounter,
+  getCounter,
+  resetCounter,
+  setupEventListeners,
+} from "../src/script";
 
 describe("Counter Tests", () => {
   beforeEach(() => {
