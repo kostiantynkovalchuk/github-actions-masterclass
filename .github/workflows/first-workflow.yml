@@ -6,4 +6,7 @@ name: Practice-ci-cd
     name: test
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Testing the code"
+      - run: 
+          echo "Testing the code"
+          pwd
+          ls -al
