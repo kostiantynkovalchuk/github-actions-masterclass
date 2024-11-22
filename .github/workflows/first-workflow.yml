@@ -1,10 +1,9 @@
-name: practice-ci-cd
-on:
-    push:
-        branches:
-            -main
-            jobs: 
-                name:test
-                runs-on: ubuntu-latest
-                steps:
-                    run: echo "Hello world"
+name: Practice-ci-cd
+ on:
+  push:
+    branches: -main
+  jobs:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Testing the code"
