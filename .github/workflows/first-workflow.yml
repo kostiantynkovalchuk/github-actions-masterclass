@@ -1,12 +1,14 @@
 name: Practice-ci-cd
- on:
+on:
   push:
-    branches: -main
-  jobs:
-    name: test
-    runs-on: ubuntu-latest
-    steps:
-      - run: 
-          echo "Testing the code"
-          pwd
-          ls -al
+    branches: 
+        -main
+jobs:
+
+    test:
+      runs-on: ubuntu-latest
+      steps: |
+         - run: 
+         echo "Testing the code"
+         pwd
+        ls -al
